@@ -5,7 +5,7 @@ function myFunction(){
     if(document.getElementById("Username").value == ""){
        document.getElementById("testUsername").innerHTML= "Username is required"
     }else{
-            document.getElementById("testUsername").value= "";
+            document.getElementById("testUsername").innerHTML= "";
     };
 
     if(document.getElementById("Password").value == ""){
